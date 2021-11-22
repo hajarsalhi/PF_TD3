@@ -1,5 +1,9 @@
 package td2.universite;
 
+import java.util.Map;
+import java.util.function.Function;
+import java.util.stream.Stream;
+
 public class Matiere {
     private String nom;
 
@@ -29,4 +33,9 @@ public class Matiere {
     public String toString() {
         return nom;
     }
+
+    public static final Function<Annee, Stream<Matiere>> matieresA = ;
+
+
+    public static final Function<Etudiant,Stream<Map.Entry<Matiere,Integer>>> matieresCoefE
 }
